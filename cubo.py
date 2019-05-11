@@ -1,10 +1,13 @@
+from algoritmos import Algoritmos
+
 def reverso(alg):
     alg_reverse = alg.split(" ")
     return alg_reverse
 
-algoritmo = str(input("Cole o Algoritmo: "));
+algoritmos = Algoritmos()
+print(algoritmos.PLL)
 
-saida = reverso(algoritmo)
+saida = reverso("Adriano")
 
 for move in saida:
     print(move)
