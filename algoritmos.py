@@ -1,5 +1,6 @@
 class Algoritmos:
     def __init__(self):
+
         self.PLL = {
             "A1":"x [(R' U R') D2] [(R U' R') D2] R2",
             "A2":"x' [(R U' R) D2] [(R' U R) D2] R2",
